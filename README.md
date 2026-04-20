@@ -1,9 +1,4 @@
-"# QuizBee" 
-<<<<<<< HEAD
 # University Q&A Forum (QuizBee)
-=======
-# University Q&A Forum 
->>>>>>> 96f6f4187b9395b0ba11ff563a4f6f896df6625a
 
 A full-stack Q&A forum for university communities where users can register, log in, ask questions, comment on questions, and manage their profile.
 
@@ -12,7 +7,6 @@ A full-stack Q&A forum for university communities where users can register, log 
 - Frontend: React + Vite
 - Backend: Node.js + Express.js
 - Database: MongoDB (local)
-<<<<<<< HEAD
 
 ## Project Structure
 
@@ -166,5 +160,3 @@ Backend URL:
 - Questions can only be edited/deleted by their author.
 - Deleting a question also deletes its comments.
 
-=======
->>>>>>> 96f6f4187b9395b0ba11ff563a4f6f896df6625a

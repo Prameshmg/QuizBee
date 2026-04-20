@@ -104,7 +104,7 @@ export default function QuestionCard({ question, currentUserId, onDelete, onEdit
           <p><strong>Role:</strong> {question.author.role || '-'}</p>
           <p><strong>Phone:</strong> {question.author.phone || '-'}</p>
           <p><strong>IT Number:</strong> {question.author.itNumber || '-'}</p>
-          {/* {question.author._id !== currentUserId && (
+          {question.author._id !== currentUserId && (
             <button
               type="button"
               className="btn btn-secondary btn-chat"
@@ -112,7 +112,7 @@ export default function QuestionCard({ question, currentUserId, onDelete, onEdit
             >
               Chat in Inbox
             </button>
-          )} */}
+          )}
         </div>
       )}
     </div>
