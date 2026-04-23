@@ -27,3 +27,13 @@ pnpm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Test coverage
+*.lcov
+
+# Misc
+*.log
+*.pid
+*.seed
