@@ -160,14 +160,3 @@ Backend URL:
 - Questions can only be edited/deleted by their author.
 - Deleting a question also deletes its comments.
 
-## Contributing
-
-Contributions are welcome! Please read the [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.
-
-## Security
-
-For security concerns, please refer to our [Security Policy](SECURITY.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
