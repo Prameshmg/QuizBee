@@ -20,6 +20,7 @@ export default function Navbar() {
           <>
             <Link to="/">Home</Link>
             <Link to="/inbox">Inbox</Link>
+            <Link to="/groups">Groups</Link>
             <Link to="/profile">Profile</Link>
             <span className="navbar-username">@{user?.username}</span>
             <button className="btn btn-outline-sm" onClick={handleLogout}>

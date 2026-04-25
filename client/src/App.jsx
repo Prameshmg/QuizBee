@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import QuestionDetail from './pages/QuestionDetail';
 import Profile from './pages/Profile';
 import Inbox from './pages/Inbox';
+import Groups from './pages/Groups';
 
 function PrivateRoute({ children }) {
   const { token } = useAuth();
@@ -31,6 +32,7 @@ export default function App() {
             <Route path="/inbox"         element={<PrivateRoute><Inbox /></PrivateRoute>} />
             <Route path="/login"         element={<GuestRoute><Login /></GuestRoute>} />
             <Route path="/register"      element={<GuestRoute><Register /></GuestRoute>} />
+            <Route path="/groups"        element={<PrivateRoute><Groups /></PrivateRoute>} />
             <Route path="*"              element={<Navigate to="/" replace />} />
           </Routes>
         </main>
