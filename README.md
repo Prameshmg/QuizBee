@@ -160,3 +160,5 @@ Backend URL:
 - Questions can only be edited/deleted by their author.
 - Deleting a question also deletes its comments.
 
+## Project Status: Finalized the Project
+
